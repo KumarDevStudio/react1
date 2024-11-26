@@ -14,19 +14,19 @@ function App() {
   return (
     <div className="App">
 
-      <Router>
-        <Navbar />
+      {/* <Router>
+        
         <Routes>
           <Route path="/" element={<Hom />} />
-          {/* <Route path="/get" element={<Get/>} /> */}
+          <Route path="/get" element={<Get/>} />
           <Route path="/form" element={<Form />} />
 
         </Routes>
       // </Router>
-      {/* <Cal />
-{/* 
+       <Cal /> */}
+
       <Login />
-      <SignUp/> */}
+      <SignUp/>
     </div>
   );
 }
